@@ -1,0 +1,30 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    color: blue;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: blue;
+}
+h3{
+    color: blue;
+}
+p{
+    font-size: medium;
+    margin: 1rem;
+    padding: 1rem;
+}
+li{
+    font-weight: 500;
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+.xbox{
+    background-image: url(images/logo2.jpeg);
+}
