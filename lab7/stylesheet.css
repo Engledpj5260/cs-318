@@ -72,6 +72,7 @@ main img{
     }
     .about-me div{
         flex-basis: 50%;
+        /*Missing margin-left 2rem*/
     }
     h2{
         padding-left: 4rem;
@@ -84,6 +85,7 @@ main img{
     .gallery h2{
         margin: .5rem;
     }
+    /*Missing width 32% and margin .5rem on the ".gallery img"*/
 }
 @media (min-width:2300px){
     .gallery{
