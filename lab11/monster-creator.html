@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="stylesheet.css" type="text/css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Monster Creator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Eater&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+        </head>
+        <body>
+        <main>
+           <h1>Monster Creator</h1>
+           <form action="https://theresahanson.com/monster-creator" method="post" enctype="multipart/form-data">
+           <label for="name">Monsters Name</label>
+           <input type="text" id="name" name="monster-name">
+           <label for="email">Monsters Email</label>
+           <input type="email" id="email" name="monster-email" value="@monstermail.com">
+           <label for="birthday">Monsters Birthday</label>
+           <input type="date" id="birthday" name="monster-birthday">
+           <fieldset>
+               <legend>Scary?</legend>
+               <label for="scary-yes" >Yes!</label>
+               <input type="radio" id="scary-yes" name="monster-scary">
+               <label for="scary-no">No!</label>
+               <input type="radio" id="scarry-no" name="monster-scary">
+           </fieldset>
+           <label for="Color of Monster">Color of Monster</label>
+           <input type="color" name="monster-color" id="Color of Monster">
+           <label for="How many tenticals? (1-1,000,000)">How many tenticals? (1-1,000,000)</label>
+           <input type="number" id="How many tentacles? (1-1,000,000)" name="monster-tentacles" value="1" min="1" max="1000000">
+           <label for="Picture of Monster"></label>
+           <input type="file" id="Picture of Monster" name="monster-picure" accept="images/*">
+           <label for="Number of Eyeballs(1-22)">Number of Eyeballs(1-22)</label>
+           <input type="number" id="Number of Eyeballs(1-22)" name="monster-eyes" min="1" max="22">
+           <label for="Monsters Creator"></label>
+           <input type="text" id="Monsters Creator" name="monster-creator" value="Your Name Here">
+           <div>
+               <input type="reset" value="reset">
+               <input type="submit" value="submit">
+           </div>
+        </form>
+        </body>

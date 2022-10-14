@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    background-color: #18810f;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif ;
+}
+h1{
+    font-family: 'Eater', cursive ;
+    background-color: black;
+    color: greenyellow;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    font-size: 5rem;
+}
+label{
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0 .25rem;
+}
+legend{
+    font-size: 1.5rem;
+    margin: 1rem 0 .25rem;
+}
+form{
+    background-color: rgba(0,0,0,.9);
+    padding: 1rem 2rem;
+    width: 32rem;
+    margin: 1rem auto;
+}
+input[type=text],[type=email],[type=date],[type=number],[type=color]{
+    font-size: 1.25rem;
+    width: 30rem;
+    border: 5px solid yellowgreen;
+    border-radius: .5rem;
+}
+input:focus[type=text], input:focus[type=email], input:focus[type=date], input:focus[type=number], input:focus[type=color]{
+    font-size: 1.25rem;
+    width: 30rem;
+    border: 5px solid yellowgreen;
+    padding: .5rem;
+    border-radius: .5rem ;
+}
+input:focus[type=text], input:focus[type=email], input:focus[type=date], input:focus[type=number], input:focus[type=color]{
+    background-color: black;
+    color: #fff;
+    outline: none;
+}
+Fieldset label{
+    display: inline-block;
+}
+fieldset{
+    border: 5px solid yellowgreen;
+    border-radius: .5rem ;
+    margin: 1rem 0;
+}
+input[type=color]{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+}
+input[type=file]{
+    font-size: 1rem;
+    padding: 1rem 0;
+    width: 30rem;
+}
+.actions{
+    margin: 1rem 0;
+}
+input[type=Reset],[type=submit]{
+font-family:'Eater', cursive ;
+font-size: 2rem;
+padding: 1rem;
+border-radius: 2rem;
+border: 3px solid yellowgreen;
+margin: 0 2rem 0 0;
+}
+input[type=submit]{
+    background-color: yellowgreen;
+}
+input[type=Reset]{
+    background-color: black;
+    color: yellowgreen;
+}
+input:hover[type=submit]{
+background-color: black;
+color: yellowgreen;
+}
+input:hover[type=Reset]{
+color: black;
+background-color: red;
+border: 5px solid red;
+}
+body{
+    background-image:url(images/eyeballs.svg) ;
+    background-size: 20%;
+}
