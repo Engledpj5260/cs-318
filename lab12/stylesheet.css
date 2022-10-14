@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: purple;
+    color: #fff;
+    padding: 1rem;
+    position: relative;
+}
+.menu{
+    position: absolute;
+    background-color: #fff;
+    color: purple;
+    padding: 2rem;
+    top: 3px;
+    right: 20px;
+}
+nav{
+    position: absolute;
+}
+nav a{
+    display: block;
+    background-color: blueviolet;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 1rem 2rem;
+}
+nav{
+    top:112px;
+    right: 0px;
+}
+.show{
+    display: block;
+}
+nav{
+    display: none;
+}
+main{
+    padding: 1rem;
+}
+.desktop{
+    display: none;
+}
+.square{
+    background-color: blueviolet;
+    height: 10rem;
+    width: 45%;
+    margin: .5rem;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer{
+    background-color: plum;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+footer img{
+    width: 2rem;
+}
+.social-media{
+    margin: 1rem;
+
+}
+.social-media a{
+    margin: 1rem;
+    color: purple;
+    text-decoration: none;
+}
+.menu{
+    display: none;
+}
+nav{
+    display: block;
+}
+nav a{
+    display: inline-block;
+    margin: 1rem;
+}
+nav a:hover{
+    background-color: #fff;
+    color: blueviolet;
+}
+nav{
+    position: unset;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    margin: 2rem;
+}
+.mobile{
+    display: none;
+}
+.desktop{
+    display: block;
+}
+.two-column-text{
+    display: flex;
+    justify-content: space-between;
+}
+.two-column-text p{
+    width: 48%;
+}
+.gallery{
+    justify-content: space-between;
+
+}
+.square{
+    width: 18%;
+}
