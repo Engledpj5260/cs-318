@@ -19,6 +19,7 @@ nav{
     position: absolute;
 }
 nav a{
+    width: 1200px;
     display: block;
     background-color: blueviolet;
     color: #fff;

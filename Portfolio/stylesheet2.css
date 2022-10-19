@@ -1,0 +1,86 @@
+body{
+    background-color:#251605;
+    color: #E2C391;
+    font-size: xx-large;
+    
+}
+.floatright{
+    width: 400px;
+    float: right;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.YLIFEhead{
+    font-size: 5rem;
+    margin: 1rem;
+}
+.start{
+    text-decoration: underline;
+    
+}
+.after{
+    text-decoration: underline;
+}
+.YLIFE1{
+    width: 400px;
+}
+.YLIFE2{
+    width: 400px;
+}
+.YLIFE3{
+    width: 400px;
+}
+.YLIFE4{
+    width: 400px;
+}
+.BG{
+text-decoration: underline;
+text-align: center;
+}
+.merch{
+    text-decoration: underline;
+text-align: center;
+}
+.BS{
+width: 250px;
+}
+.WS{
+    width: 250px;
+   
+}
+.mon{
+    text-decoration: underline;
+    text-align: center; 
+}
+.ti{
+width: 150px;
+}
+.um{
+    width: 150px;
+    align-content: space-around;
+}
+.merchitem{
+    display: inline-block;
+    width: 48%;
+}
+.musicimage{
+    display: inline-block;
+    width: 48%;
+    margin: .55%;
+}
+.musicimage img{
+    width: 50%;
+}
+.TR{
+    width: 215px;
+
+}
+.TO{
+    width: 215px;
+}
+.musicimage .icon{
+    width: 10%;
+}
