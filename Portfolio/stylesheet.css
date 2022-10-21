@@ -83,3 +83,11 @@ width: 150px;
 .musicimage .icon{
     width: 10%;
 }
+nav>a{
+    background-color: #E2C391;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin: 1rem;
+}
