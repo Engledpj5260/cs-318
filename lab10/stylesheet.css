@@ -1,0 +1,67 @@
+body{
+    background-image: url(images/studland-1101904_1920.jpg);
+    background-color:#d4c47a;
+    margin: 0;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background:#d4c47a ;
+    
+    align-items: center;
+}
+nav a{
+    
+    color:  #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-weight: bold;
+   
+}
+nav a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+header{
+    position: static;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.Goose img{
+    width:60% ;
+}
+nav{
+    background-color:#00000070 ;
+    display: flex;
+    justify-content: space-evenly;
+}
+div{
+    background: #d4c47a;
+}
+div.ourstory{
+    text-align: center;
+width: 80%;
+margin: 2rem 10%;
+}
+.menu{
+    display: inline-block;
+    vertical-align: text-top;
+    width: 40%;
+    margin: 1rem 4%;
+}
+.drinks{
+    display: inline-block;
+    vertical-align: text-top;
+    width: 40%;
+    margin: 1rem 4%;
+}
+.contactus{
+    display: inline-block;
+    vertical-align: text-bottom;
+    width: 40%;
+    margin: 1rem 4%;
+}
+.beerimg{
+    width: 100%;
+}
