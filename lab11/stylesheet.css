@@ -25,15 +25,18 @@ legend{
 form{
     background-color: rgba(0,0,0,.9);
     padding: 1rem 2rem;
-    width: 32rem;
+    width: 32rem;/*Should be 50rem */
+    /*Missing max-width property*/
     margin: 1rem auto;
 }
 input[type=text],[type=email],[type=date],[type=number],[type=color]{
     font-size: 1.25rem;
-    width: 30rem;
+    width: 30rem;/*Width should be calc(100% - 1rem)*/
     border: 5px solid yellowgreen;
     border-radius: .5rem;
+    /*Missing padding:.5rem;*/
 }
+/*Delete line 40 to 46*/
 input:focus[type=text], input:focus[type=email], input:focus[type=date], input:focus[type=number], input:focus[type=color]{
     font-size: 1.25rem;
     width: 30rem;
