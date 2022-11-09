@@ -72,6 +72,7 @@ main img{
     }
     .about-me div{
         flex-basis: 50%;
+        margin-left: 2rem;
         /*Missing margin-left 2rem*/
     }
     h2{
@@ -83,6 +84,10 @@ main img{
         max-height: 78rem;
     }
     .gallery h2{
+        margin: .5rem;
+    }
+    .gallery img{
+        width: 32%;
         margin: .5rem;
     }
     /*Missing width 32% and margin .5rem on the ".gallery img"*/
