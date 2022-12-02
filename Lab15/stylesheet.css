@@ -73,18 +73,18 @@ z-index: -2;
 @keyframes forward{
     from{
         left: 0px;
-        transform: forward(0deg);
+        transform: forward(0deg);/*This transform isn't doing anything. Delete it*/
     }
     50%{
         left: 900px;
     }
     to{
         left: 100px;
-        transform: forward(90deg);
+        transform: forward(90deg);/*This transform isn't doing anything. Delete it*/
     }
 }
 .rocket{
-    resize: 50px;
+    resize: 50px;/*This property isn't being used correctly. Resize indicates whether a user can scale an image up or down.*/
     animation: up 2s alternate infinite;
 }
 @keyframes up{
