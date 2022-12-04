@@ -1,0 +1,173 @@
+body{
+    background-color: #0f0f0f;
+    color: #fcfbfc;
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+}
+h1{
+    font-family: 'Cinzel Decorative',cursive;
+    color: #f72127;
+}
+h2{
+    font-family: 'Cinzel Decorative', cursive;
+    color: #f72127;
+}
+header{
+background-color: #18251c;
+padding: 1rem;
+}
+nav>a{
+    color: #fcfbfc;
+    background-color: #5c765a;
+    padding: 1rem;
+    font-weight: 800;
+    display: inline-block;
+    margin: 1rem 1rem 1rem 0;
+    transition-property: opacity;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+.sidenav>a{
+    background-color: #fae2c0;
+    color: #0f0f0f;
+    padding: .5rem 1rem;
+    display: inline-block;
+    margin: 1rem 2rem;
+    position: relative;
+    transition: opacity .2s ease-in-out, .5s ease-in-out;
+}
+.sidenav{
+    background-color: #5c765a;
+    padding: .5rem 1rem;
+}
+.sidenav>a:before, .sidenav>a:after{
+    position: absolute;
+    width: 1.7rem;
+    height: 2.5rem;
+    top: -1.6rem;/*This should be -.6 not -1.6*/
+}
+.sidenav>a:before{
+    content: url(images/scroll-left.svg);
+    left :-1.6rem;
+}
+.sidenav>a::after{
+    content: url(images/scroll-right.svg);
+    right :-1.6;/*missing rem unit*/
+}
+main{
+margin: 1rem;
+}
+section{
+margin:  0 1rem;
+padding-left: 5rem;
+position: relative;
+}
+section:before{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    left: 0;
+    top: 0;
+}
+.title{
+    margin: 0;
+    padding: 2rem 1rem;
+    background-color: #2e0105;
+
+}
+/*All the ids need to be lower case because they are in the html*/
+#odin:before{
+    content: url(images/odin.svg);
+}
+#thor:before{
+    content: url(images/thor.svg);
+}
+#Loki:before{
+    content: url(images/loki.svg);
+}
+#Frigg:before{
+    content: url(images/frigg.svg);
+}
+#Baldr:before{
+    content: url(images/baldr.svg);
+}
+#Freyja:before{
+    content: url(images/freyja.svg);
+}
+#freyr:before{
+    content: url(images/freyr.svg);
+}
+#Heimdallr:before{
+    content: url(images/heimdallr.svg);
+}
+#Hel:before{
+    content: url(images/hel.svg);
+}
+#Yggdrasil:before{
+    content: url(images/yggdrasil.svg);
+}
+#Asgard:before{
+    content: url(images/asgard.svg);
+}
+#Vanaheimr:before{
+    content: url(images/vanaheimr.svg);
+}
+#Alfheim:before{
+    content: url(images/alfheim.svg);
+}
+#Midgard:before{
+    content: url(images/midgard.svg);
+}
+#Jotunheimr:before{
+    content: url(images/jotunheimr.svg);
+}
+#Muspelheim:before{
+    content: url(images/muspelheim.svg);
+}
+#Svartalfar:before{
+    content: url(images/svartalfar.svg);
+}
+#niflheim:before{
+    content: url(images/niflheim.svg);
+}
+#nidavellir:before{
+    content: url(images/nidavellir.svg);
+}
+@media (min-width:1100px){
+    header nav{
+        flex-basis: unset;
+    }
+    body{
+        display: grid;
+        grid-template-columns: 20rem auto;
+        
+    }
+    header{
+      display: end;/*This should be display flex*/
+      justify-content: end;
+      grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start:1;
+        grid-row-end: 2;
+
+    }
+    .sidenav{
+        background-color: darkolivegreen;
+    }
+    .sidenav a{
+        color: white;
+        text-decoration: none;
+        display: block;
+        font-size: 1.25rem;
+        padding: 2rem 1rem;/*delete this*/
+        margin: 2rem;
+        left: -10rem;
+    }
+    .sidenav a:hover{
+        background-color: darkslategray;
+        left: 0;
+    }
+    header{
+        justify-content: space-between;
+    }
+}
